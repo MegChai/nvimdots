@@ -6,24 +6,24 @@ require('keymap.config')
 
 local plug_map = {
     -- Neoformat
-    ["n|<C-A-l>"] = map_cr("Neoformat"):with_noremap():with_silent(),
+    ["n|<leader>fmt"] = map_cr("Neoformat"):with_noremap():with_silent(),
     -- Bufferline
-    ["n|gb"] = map_cr("BufferLinePick"):with_noremap():with_silent(),
-    ["n|<A-j>"] = map_cr("BufferLineCycleNext"):with_noremap():with_silent(),
-    ["n|<A-k>"] = map_cr("BufferLineCyclePrev"):with_noremap():with_silent(),
-    ["n|<A-S-j>"] = map_cr("BufferLineMoveNext"):with_noremap():with_silent(),
-    ["n|<A-S-k>"] = map_cr("BufferLineMovePrev"):with_noremap():with_silent(),
-    ["n|<leader>be"] = map_cr("BufferLineSortByExtension"):with_noremap(),
-    ["n|<leader>bd"] = map_cr("BufferLineSortByDirectory"):with_noremap(),
-    ["n|<A-1>"] = map_cr("BufferLineGoToBuffer 1"):with_noremap():with_silent(),
-    ["n|<A-2>"] = map_cr("BufferLineGoToBuffer 2"):with_noremap():with_silent(),
-    ["n|<A-3>"] = map_cr("BufferLineGoToBuffer 3"):with_noremap():with_silent(),
-    ["n|<A-4>"] = map_cr("BufferLineGoToBuffer 4"):with_noremap():with_silent(),
-    ["n|<A-5>"] = map_cr("BufferLineGoToBuffer 5"):with_noremap():with_silent(),
-    ["n|<A-6>"] = map_cr("BufferLineGoToBuffer 6"):with_noremap():with_silent(),
-    ["n|<A-7>"] = map_cr("BufferLineGoToBuffer 7"):with_noremap():with_silent(),
-    ["n|<A-8>"] = map_cr("BufferLineGoToBuffer 8"):with_noremap():with_silent(),
-    ["n|<A-9>"] = map_cr("BufferLineGoToBuffer 9"):with_noremap():with_silent(),
+    ["n|<leader>bg"] = map_cr("BufferLinePick"):with_noremap():with_silent(),
+    ["n|<leader>b]"] = map_cr("BufferLineCycleNext"):with_noremap():with_silent(),
+    ["n|<leader>b["] = map_cr("BufferLineCyclePrev"):with_noremap():with_silent(),
+    ["n|<leader>bm]"] = map_cr("BufferLineMoveNext"):with_noremap():with_silent(),
+    ["n|<leader>bm["] = map_cr("BufferLineMovePrev"):with_noremap():with_silent(),
+    ["n|<leader>bse"] = map_cr("BufferLineSortByExtension"):with_noremap(),
+    ["n|<leader>bsd"] = map_cr("BufferLineSortByDirectory"):with_noremap(),
+    ["n|<leader>b1"] = map_cr("BufferLineGoToBuffer 1"):with_noremap():with_silent(),
+    ["n|<leader>b2"] = map_cr("BufferLineGoToBuffer 2"):with_noremap():with_silent(),
+    ["n|<leader>b3"] = map_cr("BufferLineGoToBuffer 3"):with_noremap():with_silent(),
+    ["n|<leader>b4"] = map_cr("BufferLineGoToBuffer 4"):with_noremap():with_silent(),
+    ["n|<leader>b5"] = map_cr("BufferLineGoToBuffer 5"):with_noremap():with_silent(),
+    ["n|<leader>b6"] = map_cr("BufferLineGoToBuffer 6"):with_noremap():with_silent(),
+    ["n|<leader>b7"] = map_cr("BufferLineGoToBuffer 7"):with_noremap():with_silent(),
+    ["n|<leader>b8"] = map_cr("BufferLineGoToBuffer 8"):with_noremap():with_silent(),
+    ["n|<leader>b9"] = map_cr("BufferLineGoToBuffer 9"):with_noremap():with_silent(),
     -- Packer
     ["n|<leader>ps"] = map_cr("PackerSync"):with_silent():with_noremap()
         :with_nowait(),
@@ -122,7 +122,7 @@ local plug_map = {
     -- Plugin Twilight
     ["n|<leader><leader>t"] = map_cr('Twilight'):with_noremap():with_silent(),
     -- Plugin SymbolOutline
-    ["n|<A-t>"] = map_cr('SymbolsOutline'):with_noremap():with_silent(),
+    ["n|<leader>ol"] = map_cr('SymbolsOutline'):with_noremap():with_silent(),
     -- Plugin split-term
     ["n|<F5>"] = map_cr('Term'):with_noremap():with_silent(),
     ["n|<C-w>t"] = map_cr('Term'):with_noremap():with_silent(),
